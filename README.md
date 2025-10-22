@@ -46,4 +46,11 @@ All code is implemented using **TensorFlow 2.x** and **Keras**.
 - Pixel values are scaled back to `[0, 255]`.  
 - Saved as PNG files after each epoch.
 
+
+## Project Summary 
+
+This project implements a **Generative Adversarial Network (GAN)** that can generate realistic handwritten digit images similar to the **MNIST dataset**.  
+The GAN consists of two neural networks: the **Generator**, which creates fake images from random noise, and the **Discriminator**, which classifies images as real or fake.  
+The networks are trained together so that the Generator improves over time and produces highly realistic images.  
+
 ---
